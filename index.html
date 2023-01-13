@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>дз6</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+
+
+
+
+
+    <div class="block">
+        <div class="text">
+            <p>Please sing up</p>
+        </div>
+        <form>
+            <input type="text" placeholder="Name" class="name1 textFirst" id="name">
+            <input type="text" placeholder="LastName" class="lastname textLast" id="lastname">
+            <input type="email" placeholder="Email" class="Email email" id="Email">
+            <label for="email" class="label hidden">
+                <h2>Такий емейл уже існує</h2>
+            </label>
+            <input type="password" placeholder="Password" class="pasworld password" id="pasworld">
+            <input type="button" class="button" id="button" disabled value="Sing up">
+            <input class="button signInNow" type="button" value="Sign In now">
+    
+        </form>
+
+    </div>
+
+    <div class="modal hidden">
+        <div class="text">
+            <p>Please sign in</p>
+        </div>
+        
+        <input class="input email2" type="email" placeholder="Email address">
+        <input class="input password2" type="password" placeholder="Password">
+        <h2 class="incorect hidden">Такого користувача немає</h2>
+        <input class="button signIn" type="button" value="Sign In">
+        <input class="button signUpNow" type="button" value="Sign up now">
+    </div>
+    <div class="sign hidden ">  
+        <div class="info ">
+            <h1 class="name ">Ivan Ivanov</h1>
+            <h3 class="i info_email ">ivan</h3>
+            <h3 class="i work ">Designer & Web Developing</h3>
+        </div>
+        <input type="button" class="button signUpNow signButton" value="Sign up">
+    </div>
+
+
+
+    
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>

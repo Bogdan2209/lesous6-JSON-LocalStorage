@@ -1,0 +1,110 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.block{
+    width: 600px;
+    height: 700px;
+    border: 1px solid black;
+    margin: 100px auto;
+    border-radius: 15px;
+   
+}
+.text{
+    height: 100px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.form{
+    height: 598px;
+
+}
+.name1{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 500px;
+    height: 60px;
+}
+.lastname{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 500px;
+    height: 60px;
+
+}
+.Email{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 500px;
+    height: 60px;
+}
+.pasworld{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 500px;
+    height: 60px;
+}
+
+.button{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 500px;
+    height: 60px;
+    color: white;
+    font-size: 30px;
+    background-color: blue
+
+}
+
+.modal{
+    width: 600px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 100px auto;
+    border-radius: 15px;
+    
+}
+
+
+.input{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 500px;
+    height: 60px;
+
+}
+
+.hidden{
+    display: none;
+}
+
+.label{
+    width: 100%;
+}
+
+.sign{
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 100px auto;
+    border-radius: 15px;
+    
+}
+
+
+.info{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.i{
+    color: grey;
+}
